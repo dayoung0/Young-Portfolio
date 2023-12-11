@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Survey Guru</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<body>
+
+    <div class="survey-container">
+        <h1 class="title">Survey Guru</h1><br />
+   
+        <!-- Survey Form -->
+        <form id="form">
+
+            <!-- Demographic info -->
+            <div class="category-container">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br /> <br />
+
+                <!-- Email Address -->
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br /> <br />
+
+                <!-- Gender -->
+
+                <label>Gender:</label>
+                <input type="radio" id="gender" name="gender" class="pointer" value="male" checked>
+                <label for="male">Male</label>
+
+                <input type="radio" id="gender" name="gender" value="female" class="pointer">
+                <label for="female">Female</label>
+
+                <input type="radio" id="gender" name="gender" value="other" class="pointer">
+                <label for="other">Other</label> <input type="text" id="self-id" name="self-id">
+
+                <br />
+                <br />
+
+
+                <select id="department" name="department" class="pointer">
+                    <option value="" disabled selected>Select Team</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="operations">Operations Management</option>
+                    <option value="hr">Human Resources</option>
+                </select>
+
+            </div><br />
+
+
+            <!-- Usage -->
+
+            <!-- Experience -->
+
+            <div class="category-container">
+
+            <label>1) How long have you been using the software?</label><br />
+            <input type="radio" class="pointer" id="beginner" name="experience" value="beginner" checked>
+            <label for="beginner">0-1 Year</label>
+
+            <input type="radio" class="pointer" id="proficient" name="experience" value="proficient">
+            <label for="proficient">2-5 Years</label>
+
+            <input type="radio" class="pointer" id="expert" name="experience" value="expert">
+            <label for="expert">5+ Years</label>
+
+            <br /> <br />
+
+            <!-- Frequency -->
+
+            <label>2) How often do you use the software?</label><br />
+            <input type="radio" class="pointer" id="beginner" name="frequency" value="beginner" checked>
+            <label for="beginner">0-1 times a week</label>
+
+            <input type="radio" class="pointer" id="proficient" name="frequency" value="proficient">
+            <label for="proficient">2-5 times a week</label>
+
+            <input type="radio" class="pointer" id="expert" name="frequency" value="expert">
+            <label for="expert">5+ times a week</label>
+
+            <br /> <br />
+
+            <!-- Ease of Use -->
+
+            <label for="rating">3) Ease of Use: 1</label>
+            <input type="range" class="pointer" id="rating" name="rating" min="1" max="10" required>
+            <span id="rating-value">5</span>
+            <br /> <br />
+
+            <!-- Performance -->
+
+            <label for="performance">4) Rate the performance of the software: 1</label>
+            <input type="range" class="pointer" id="performance" name="performance" min="1" max="10" required>
+            <span id="performance-value">5</span>
+            <br /> <br />
+
+            <!-- Satisfaction -->
+
+            <label for="satisfaction">5) Rate your overall satisfaction with the software: 1</label>
+            <input type="range" class="pointer" id="satisfaction" name="satisfaction" min="1" max="10" required>
+            <span id="satisfaction-value">5</span>
+          </div>
+          <br />
+            <!-- Additional Features -->
+            <div class="category-container">
+
+            <label for="name">6) Are there additional features you would like to see in the software? </label>
+            <br /> <br />
+
+            <textarea form="form" id="features" class="textArea" name="name" placeholder="Additional features..."
+                maxlength="500"></textarea>
+            <br /> <br />
+
+            <!-- Software Compare -->
+
+            <label for="name">7) How does the software compare to other similar tools you've used?
+            </label>
+            <br /> <br />
+
+            <textarea form="form" id="compare" name="name" class="textArea"
+                placeholder="How does the software compare..." maxlength="500"></textarea>
+            <br /> <br />
+
+            <!-- Additional Comments -->
+
+            <label for="name">8) Any additional comments or feedback you would like to provide?
+            </label>
+            <br /> <br />
+
+            <textarea form="form" id="feedback" name="name" class="textArea" placeholder="Additional comments..."
+                maxlength="500"></textarea>
+            </div><br />
+
+            <!-- Submit Button -->
+
+            <button type="submit" onclick="downloadCSV()">Submit</button>
+        </form>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

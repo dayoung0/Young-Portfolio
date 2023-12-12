@@ -14,9 +14,9 @@ body {
 
 .container {
   position: relative;
-  width: 20px; /* Adjust the width as needed */
-  height: 90%; /* Adjust the height as needed */
-  background-color: #ccc; /* Background color for the container */
+  width: 20px; 
+  height: 90%; 
+  background-color: #ccc; 
   overflow: hidden;
 }
 
@@ -24,8 +24,8 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #4caf50; /* Green */
-  height: 0; /* Initialize height to 0 */
+  background-color: #4caf50; 
+  height: 0; 
 }
 #lvl1 {
   position: absolute;
@@ -371,7 +371,7 @@ background-color: black;
     }
     
     .zombie {
-      animation: zombieAnimation 1s ease infinite; /* Adjust the animation duration and timing function as needed */
+      animation: zombieAnimation 1s ease infinite; /* Animation duration */
     }
 
 

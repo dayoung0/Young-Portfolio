@@ -38,7 +38,7 @@ body {
   background-color: #178582;
   transform-origin: left center;
   transition: transform 1.2s ease-in-out;
-  cursor: pointer; /* Add cursor style to indicate clickability */
+  cursor: pointer; 
   z-index: 4;
   border-left: 15px dotted  #DDD0C8;
   text-align: center;
@@ -83,7 +83,7 @@ div>
   background-color: #175185;
   transform-origin: left center;
   transition: transform 1.2s ease-in-out;
-  cursor: pointer; /* Add cursor style to indicate clickability */
+  cursor: pointer; 
   z-index: 3;
   color: white;
   text-align: center;
@@ -110,7 +110,7 @@ div>
   background-color: #178582;
   transform-origin: left center;
   transition: transform 1.2s ease-in-out;
-  cursor: pointer; /* Add cursor style to indicate clickability */
+  cursor: pointer; 
   border-left: 5px solid black;
   z-index: 2;
   border-left: 15px dotted aquamarine;
@@ -135,7 +135,7 @@ div>
   background-color: #175185;
   transform-origin: left center;
   transition: transform 1.2s ease-in-out;
-  cursor: pointer; /* Add cursor style to indicate clickability */
+  cursor: pointer; 
   z-index: 1;
   color: white;
   text-align: center;

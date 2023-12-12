@@ -77,7 +77,7 @@ if(document.getElementById("name").value =="" || document.getElementById("email"
 }else{
   const csvContent = Object.values(formData).join(",") + "\n";
 
-  // Create a Blob and download it as a file
+  // Create Blob and csv download 
   const blob = new Blob([csvContent], { type: "text/csv" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);

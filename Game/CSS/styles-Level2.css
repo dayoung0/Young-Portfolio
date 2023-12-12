@@ -21,9 +21,9 @@ body {
 
 .dmg-container {
   position: absolute;
-  width: 2.5%; /* Adjust the width as needed */
-  height: 50%; /* Adjust the height as needed */
-  background-color: #ccc; /* Background color for the container */
+  width: 2.5%; 
+  height: 50%; 
+  background-color: #ccc; 
   overflow: hidden;
   bottom: 0;
   margin-left: 2%;
@@ -32,8 +32,8 @@ body {
 #dmgBuff-bar {
   position: absolute;
   width: 90%;
-  background-color: #4caf50; /* Green */
-  height: 0; /* Initialize height to 0 */
+  background-color: #4caf50; 
+  height: 0; 
   bottom: 5%;
 }
 
@@ -47,9 +47,9 @@ body {
 
 .time-container {
   position: absolute;
-  width: 2.5%; /* Adjust the width as needed */
-  height: 50%; /* Adjust the height as needed */
-  background-color: #ccc; /* Background color for the container */
+  width: 2.5%; 
+  height: 50%; 
+  background-color: #ccc; 
   overflow: hidden;
   bottom: 0;
   margin-right: 2%;
@@ -59,7 +59,7 @@ body {
 #timeBuff-bar {
   position: absolute;
   width: 90%;
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50; 
   bottom: 5%;
 }
 
@@ -189,12 +189,12 @@ border-radius: 30%;
     transform: translateY(0);
   }
   100% {
-    transform: translateY(200px); /* Adjust the distance zombies move down */
+    transform: translateY(200px); 
   }
 }
 
 .zombie {
-  animation: zombieDown 11s cubic-bezier(0.25, 0.1, 0.25, 1); /* Adjust the animation duration and timing function as needed */
+  animation: zombieDown 11s cubic-bezier(0.25, 0.1, 0.25, 1); 
 }
 
 .paused .zombie {

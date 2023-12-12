@@ -97,17 +97,18 @@ function roundWin(){
 // Add an event listener to the button
 //dmgCollectButton.addEventListener("click", handleDmgBuffButton);
 //timeCollectButton.addEventListener("click", handleTimeBuffButton);
+
 button1.addEventListener("click", winCondition);
 
-// Set the initial time in seconds
-let seconds = 10; // 5 minutes (adjust as needed)
+// Set the time 
+let seconds = 10; 
 
-// Function to update the countdown timer display
+// Updates the countdown timer display
 function updateTimer() {
   const minutes = Math.floor((seconds % 3600) / 60);
   const remainingSeconds = seconds % 60;
 
-  // Format the time as HH:MM:SS
+  // Format the time as MM:SS
   const formattedTime = `${padZero(minutes)}:${padZero(remainingSeconds)}`;
 
   // Update the timer element on the page
@@ -119,26 +120,25 @@ function padZero(number) {
   return number < 10 ? "0" + number : number;
 }
 
-// Start the countdown timer (you can call this function when your game starts)
+// Start the countdown timer
 function startCountdownTimer() {
   timerInterval = setInterval(function () {
     if (seconds > 0) {
       seconds--;
       updateTimer();
     } else {
-      // Countdown timer has reached zero, you can perform additional actions here
+      // Countdown timer has reached zero
       stopCountdownTimer();
       timerFunction();
     }
   }, 1000);
 }
 
-// Stop the countdown timer (you can call this function when needed)
+// Stop the countdown timer
 function stopCountdownTimer() {
   clearInterval(timerInterval);
 }
 
-// Example: Start the countdown timer when the page loads
 
 /*
 

@@ -20,7 +20,7 @@ localStorage.setItem('levelCount', levelCount);
 
 
 
-var nxtLvl = "level" + levelCount + ".html"
+var nxtLvl = "Level" + levelCount + ".html"
 
   
   function startRound(){

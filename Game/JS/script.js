@@ -51,7 +51,7 @@ function winCondition() {
         --clickToWin;
         n--;
         removeZombie();
-        if(filename === "level5.html"){
+        if(filename === "Level5.html"){
           window.location.href = "Winner.html";
           localStorage.clear();
 
@@ -74,7 +74,7 @@ function timerFunction() {
   localStorage.clear();
   localStorage.setItem('level_beat', level_beat);
 
-  window.location.href = "loser.html";
+  window.location.href = "Loser.html";
 
 
 }

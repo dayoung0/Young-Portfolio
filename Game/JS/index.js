@@ -12,7 +12,7 @@ if (count === null || count <2) {
 }
 
 function nextLevel() {
-    var nextLvl = "home" + count + ".html";
+    var nextLvl = "Home" + count + ".html";
 
     // Store the updated count in localStorage
     localStorage.setItem('count', count);

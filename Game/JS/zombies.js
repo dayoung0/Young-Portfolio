@@ -14,7 +14,7 @@ function addZombie(zom_Number) {
     const newZombie = document.createElement("img");
 
     newZombie.setAttribute("class", "zombie");
-    newZombie.src = "../images/pixel_art_zombie_noBG.png";
+    newZombie.src = "../Images/pixel_art_zombie_noBG.png";
     newZombie.setAttribute("id", "zombie" + suffix);
     newZombie.style.position = "static";
     newZombie.style.width = "150px";

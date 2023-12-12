@@ -5,7 +5,7 @@
 body {
   width: 100%;
   height: 100vh;
-  background-color: #d3d3d3;
+  background-color: #DDD0C8;
   
 }
 
@@ -18,25 +18,29 @@ body {
 
 }
 #project1 {
-  left: 50%;
+  align-items: center;
+  justify-content: center;  left: 40%;
   margin-left: 60%;
   border-radius: 10%;
+
   
 }
 
 .open-book {
+  align-items: center;
+  justify-content: center;
   padding: 1%;
   position: absolute;
   top: 10%;
   left: 50%;
   width: 36vw;
   height: 80vh;
-  background-color: #ddd6ff;
+  background-color: #178582;
   transform-origin: left center;
   transition: transform 1.2s ease-in-out;
   cursor: pointer; /* Add cursor style to indicate clickability */
   z-index: 4;
-  border-left: 15px dotted  #d3d3d3;
+  border-left: 15px dotted  #DDD0C8;
   text-align: center;
   font-size: 200%;
   border-radius: 3%;
@@ -45,16 +49,25 @@ body {
 
 
 #book-title{
-  margin-top: 20%;
-  margin-left: 25%;
 
+  color:#6ACFC7;
   width: 50%;
-  height: 53%;
-  background-color: #d3d3d3;
-  border: 10px double black;
-  border-radius: 100%;
+  height: 50%;
+  background-color: #DDD0C8;
+  border: 10px double #175185;
+  border-radius: 15%;
+  color: white;
+  text-shadow: 2px 2px 5px #175185;
+margin-left: 25%;
+margin-top: 30%;
 
 }
+.title-text{
+
+  font-size: 150%;
+
+}
+div>
 .open-book.opened {
   transform: perspective(1000px) rotateY(-180deg);
 }
@@ -67,7 +80,7 @@ body {
   left: 50%;
   width: 37vw;
   height: 80vh;
-  background-color: #d2c9ff;
+  background-color: #175185;
   transform-origin: left center;
   transition: transform 1.2s ease-in-out;
   cursor: pointer; /* Add cursor style to indicate clickability */
@@ -76,7 +89,7 @@ body {
   text-align: center;
   border-left: 15px dotted aquamarine;
   border-radius: 3%;
-
+  
 
 
 }
@@ -94,7 +107,7 @@ body {
   left: 50%;
   width: 38vw;
   height: 80vh;
-  background-color: #c3b7ff;
+  background-color: #178582;
   transform-origin: left center;
   transition: transform 1.2s ease-in-out;
   cursor: pointer; /* Add cursor style to indicate clickability */
@@ -119,7 +132,7 @@ body {
   left: 50%;
   width: 39vw;
   height: 80vh;
-  background-color: #af9fff;
+  background-color: #175185;
   transform-origin: left center;
   transition: transform 1.2s ease-in-out;
   cursor: pointer; /* Add cursor style to indicate clickability */
@@ -143,6 +156,7 @@ body {
     background-color: white;
   margin-left: 20%;
   margin-top: 3%;
+  max-height:max-content;
 }
 p{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

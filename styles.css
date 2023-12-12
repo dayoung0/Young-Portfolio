@@ -87,7 +87,7 @@ div>
   z-index: 3;
   color: white;
   text-align: center;
-  border-left: 15px dotted aquamarine;
+  border-left: 15px dotted #DDD0C8;
   border-radius: 3%;
   
 
@@ -113,7 +113,7 @@ div>
   cursor: pointer; 
   border-left: 5px solid black;
   z-index: 2;
-  border-left: 15px dotted aquamarine;
+  border-left: 15px dotted #DDD0C8;
   text-align: center;
   border-radius: 3%;
 
@@ -139,7 +139,7 @@ div>
   z-index: 1;
   color: white;
   text-align: center;
-  border-left: 15px dotted aquamarine;
+  border-left: 15px dotted #DDD0C8;
   border-radius: 3%;
 
 

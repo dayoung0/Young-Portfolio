@@ -9,9 +9,8 @@ body {
   background-color: #ffdab9;
   font-family: "Roboto", "Helvetica", sans-serif;
 }
-form{
-display: block;
-
+form {
+  display: block;
 }
 
 .title {
@@ -52,7 +51,7 @@ button:hover {
   cursor: pointer;
 }
 
-.category-container{
+.category-container {
   width: 50%;
   background-color: #b9deff;
   margin-left: 25%;

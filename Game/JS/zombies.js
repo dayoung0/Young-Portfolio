@@ -1,16 +1,14 @@
 let suffix = 3;
- let lm = localStorage.getItem('levelCount');
- suffix *= lm;
+let lm = localStorage.getItem("levelCount");
+suffix *= lm;
 function startup() {
   addZombie();
 }
-
 
 function addZombie(zom_Number) {
   let num_zombies = zom_Number * 3;
 
   while (num_zombies > 0) {
-
     const newZombie = document.createElement("img");
 
     newZombie.setAttribute("class", "zombie");
@@ -23,14 +21,12 @@ function addZombie(zom_Number) {
     document.getElementById("imageContainer").appendChild(newZombie);
     num_zombies--;
     suffix--;
-
   }
 }
 function removeZombie() {
   let temp = "zombie" + n.toString();
   if (n > 1) {
     document.getElementById(temp).style.display = "none";
-
   } else if (n === 0) {
     document.getElementById("zombie1").style.display = "none";
   }

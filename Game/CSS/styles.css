@@ -14,9 +14,9 @@ body {
 
 .container {
   position: relative;
-  width: 20px; 
-  height: 90%; 
-  background-color: #ccc; 
+  width: 20px;
+  height: 90%;
+  background-color: #ccc;
   overflow: hidden;
 }
 
@@ -24,8 +24,8 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #4caf50; 
-  height: 0; 
+  background-color: #4caf50;
+  height: 0;
 }
 #lvl1 {
   position: absolute;
@@ -156,7 +156,6 @@ body {
   opacity: 1;
 }
 
-
 #store-btn {
   position: absolute;
   bottom: 38%;
@@ -168,19 +167,16 @@ body {
   right: 4%;
 }
 
-
 @media only screen and (max-width: 1024px) {
-
-  .btn-container{
+  .btn-container {
     display: block;
-    width:50%;
+    width: 50%;
   }
 
-
   #lvl1 {
-  position: absolute;
-  top: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
     color: white;
     width: 120px;
     height: 100px;
@@ -188,297 +184,243 @@ body {
     font-size: 1.5em;
     font-weight: bold;
     background-image: url("../Images/eerie_haunted_circular_pond.png");
-
   }
-  
 
-  
   #lvl2 {
     position: absolute;
     top: 15%;
-  left: 0;
-  width: 120px;
-  height: 100px;
+    left: 0;
+    width: 120px;
+    height: 100px;
     color: white;
     border-radius: 100%;
     font-size: 1.5em;
     font-weight: bold;
     background-image: url("../Images/eerie_haunted_pond.png");
   }
-  
 
-  
   #lvl3 {
     position: absolute;
     top: 30%;
     left: 0;
-      color: white;
-      width: 120px;
-      height: 100px;
+    color: white;
+    width: 120px;
+    height: 100px;
     border-radius: 100%;
     font-size: 1.5em;
     font-weight: bold;
     background-image: url("../Images/eerie_haunted_field_with_pumpkin_gate.png");
   }
-  
 
-  
   #lvl4 {
     position: absolute;
     top: 45%;
     left: 0;
-      color: white;
-      width: 120px;
-      height: 100px;
+    color: white;
+    width: 120px;
+    height: 100px;
     border-radius: 100%;
     font-size: 1.5em;
     font-weight: bold;
     background-image: url("../Images/haunted_mansion_giant_scary_pumpkin.png");
   }
-  
 
-  
   #lvl5 {
     position: absolute;
     top: 60%;
     left: 0;
-      color: white;
-      width: 120px;
-      height: 100px;
+    color: white;
+    width: 120px;
+    height: 100px;
     border-radius: 100%;
     font-size: 1.5em;
     font-weight: bold;
     background-image: url("../Images/giant_pumpkin_on_haunted_mansion.png");
   }
-  
 
   #lvl1:hover {
-
     position: absolute;
     top: 0;
     left: 0;
-      color: white;
-      width: 120px;
-      height: 100px;
-      border-radius: 100%;
-      font-size: 1.5em;
-      font-weight: bold;
-      background-image: url("../Images/eerie_haunted_circular_pond.png");
-
+    color: white;
+    width: 120px;
+    height: 100px;
+    border-radius: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-image: url("../Images/eerie_haunted_circular_pond.png");
   }
   #lvl2:hover {
-
     position: absolute;
     top: 15%;
-  left: 0;
-  width: 120px;
-  height: 100px;
+    left: 0;
+    width: 120px;
+    height: 100px;
     color: white;
     border-radius: 100%;
     font-size: 1.5em;
     font-weight: bold;
     background-image: url("../Images/eerie_haunted_pond.png");
-    
   }
   #lvl3:hover {
-
     position: absolute;
     top: 30%;
     left: 0;
-      color: white;
-      width: 120px;
-      height: 100px;
+    color: white;
+    width: 120px;
+    height: 100px;
     border-radius: 100%;
     font-size: 1.5em;
     font-weight: bold;
     background-image: url("../Images/eerie_haunted_field_with_pumpkin_gate.png");
-
   }
   #lvl4:hover {
     position: absolute;
     top: 45%;
     left: 0;
-      color: white;
-      width: 120px;
-      height: 100px;
+    color: white;
+    width: 120px;
+    height: 100px;
     border-radius: 100%;
     font-size: 1.5em;
     font-weight: bold;
     background-image: url("../Images/haunted_mansion_giant_scary_pumpkin.png");
   }
   #lvl5:hover {
-
     position: absolute;
     top: 60%;
     left: 0;
-      color: white;
-      width: 120px;
-      height: 100px;
+    color: white;
+    width: 120px;
+    height: 100px;
     border-radius: 100%;
     font-size: 1.5em;
     font-weight: bold;
     background-image: url("../Images/giant_pumpkin_on_haunted_mansion.png");
-
   }
 }
 
+#loser-body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
-#loser-body{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-font-size: 90px;
+  font-size: 90px;
   color: red;
-text-align: center;
+  text-align: center;
   background-image: url("../Images/pixel_art_army_men_in_despair.png");
-
-
 }
-#restart-btn{
+#restart-btn {
   position: absolute;
   bottom: 5%;
   left: 40%;
-font-weight: bold;
+  font-weight: bold;
   color: red;
-background-color: black;
+  background-color: black;
   font-size: 80%;
   margin-top: 5%;
   width: 22vw;
   height: 22vh;
-  
 }
 
-#restart-btn:hover{
+#restart-btn:hover {
   font-weight: bold;
-    color: red;
+  color: red;
   background-color: black;
-    font-size: 80%;
-    margin-top: 5%;
-    width: 20vw;
-    height: 20vh;
-    box-shadow: 0px 0px 20px #b60101;
-    }
+  font-size: 80%;
+  margin-top: 5%;
+  width: 20vw;
+  height: 20vh;
+  box-shadow: 0px 0px 20px #b60101;
+}
 
-    @keyframes zombieAnimation {
-      0% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-20px);
-      }
-      100% {
-        transform: translateY(0);
-      }
-    }
-    
-    .zombie {
-      animation: zombieAnimation 1s ease infinite; /* Animation duration */
-    }
+@keyframes zombieAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
+.zombie {
+  animation: zombieAnimation 1s ease infinite; /* Animation duration */
+}
 
-    #winner-body{
-
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align: center;
+#winner-body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
   background-image: url("../Images/pixel_art_army_men_celebrating.png");
   color: black;
+}
 
+#win-message {
+  margin-top: 3%;
+  font-size: 100px;
+  color: black;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff,
+    3px 3px 0 #fff;
+  text-transform: uppercase;
+}
 
-    }
+#win-message2 {
+  font-size: 55px;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
 
+#future-message {
+  margin-top: 8%;
+  font-size: 45px;
+  color: #b60101;
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000,
+    3px 3px 0 #000;
+}
 
-    #win-message{
-margin-top: 3%;
-      font-size: 100px;
-      color: black;
-      text-shadow: 
-      -3px -3px 0 #fff,  
-       3px -3px 0 #fff,
-      -3px  3px 0 #fff,
-       3px  3px 0 #fff;
-       text-transform: uppercase;
-  }
-      
-    
-
-    #win-message2{
-
-      font-size: 55px;
-      text-shadow: 
-      -1px -1px 0 #fff,  
-       1px -1px 0 #fff,
-      -1px  1px 0 #fff,
-       1px  1px 0 #fff;
-
-    }
-
-    #future-message{
-      margin-top: 8%;
-      font-size: 45px;
-color: #b60101;
-      text-shadow: 
-      -3px -3px 0 #000,  
-      3px -3px 0 #000,
-     -3px  3px 0 #000,
-      3px  3px 0 #000;
-
-    }
-
-    #winner-btn{
-
-      font-size: 55px;
-      position: absolute;
-      bottom: 30%;
-      left: 40%;
-    font-weight: bold;
-      color: #b60101;
-    background-color: black;
-      margin-top: 5%;
-      width: 20vw;
-      height: 20vh;
-
-
-    }
-
-
-    #winner-btn:hover{
-
-      font-size: 60px;
-      position: absolute;
-      bottom: 30%;
-      left: 39%;
-    font-weight: bold;
-      color: #b60101;
-    background-color: black;
-      margin-top: 5%;
-      width: 22vw;
-      height: 22vh;
-      text-shadow: 
-      -1px -1px 0 #474747,  
-       1px -1px 0 #474747,
-      -1px  1px 0 #474747,
-       1px  1px 0 #474747;
-
-    }
-    
-#win_btn{
+#winner-btn {
+  font-size: 55px;
   position: absolute;
-  top:40%;
+  bottom: 30%;
+  left: 40%;
+  font-weight: bold;
+  color: #b60101;
+  background-color: black;
+  margin-top: 5%;
+  width: 20vw;
+  height: 20vh;
+}
+
+#winner-btn:hover {
+  font-size: 60px;
+  position: absolute;
+  bottom: 30%;
+  left: 39%;
+  font-weight: bold;
+  color: #b60101;
+  background-color: black;
+  margin-top: 5%;
+  width: 22vw;
+  height: 22vh;
+  text-shadow: -1px -1px 0 #474747, 1px -1px 0 #474747, -1px 1px 0 #474747,
+    1px 1px 0 #474747;
+}
+
+#win_btn {
+  position: absolute;
+  top: 40%;
 
   margin-left: 30%;
 
   width: 50%;
   height: 15vh;
 
-border-radius: 10%;
+  border-radius: 10%;
 
-color: #b60101;
-background-color: black;
-font-size: 60px;
+  color: #b60101;
+  background-color: black;
+  font-size: 60px;
 
-  text-shadow: 
-  -1px -1px 0 #474747,  
-   1px -1px 0 #474747,
-  -1px  1px 0 #474747,
-   1px  1px 0 #474747;
-
-  }
+  text-shadow: -1px -1px 0 #474747, 1px -1px 0 #474747, -1px 1px 0 #474747,
+    1px 1px 0 #474747;
+}

@@ -6,36 +6,28 @@ let timeCollectButton = document.getElementById("time-buff-button");
 
 let button1 = document.getElementById("weapon");
 
-
-
 let dmgProgress = 0;
 let timeProgress = 0;
 
-
-
-var level_beat = localStorage.getItem('level_beat');
-
+var level_beat = localStorage.getItem("level_beat");
 
 if (level_beat === null) {
   var level_beat = 0;
-}else{
-
-  level_beat = parseInt(level_beat); 
+} else {
+  level_beat = parseInt(level_beat);
 }
 level_beat++;
 
-localStorage.setItem('level_beat', level_beat);
+localStorage.setItem("level_beat", level_beat);
 const relativePath = window.location.pathname;
 
 // Extract the filename
-const filename = relativePath.substring(relativePath.lastIndexOf('/') + 1);
+const filename = relativePath.substring(relativePath.lastIndexOf("/") + 1);
 
 addZombie(level_beat);
 
-
 let startValue = 15 * level_beat;
 let clickToWin = 15 * level_beat;
-
 
 let n = 3 * level_beat;
 startCountdownTimer();
@@ -51,14 +43,11 @@ function winCondition() {
         --clickToWin;
         n--;
         removeZombie();
-        if(filename === "Level5.html"){
+        if (filename === "Level5.html") {
           window.location.href = "Winner.html";
           localStorage.clear();
-
-
-        }
-        else{
-        roundWin();
+        } else {
+          roundWin();
         }
       } else {
         clickToWin--;
@@ -70,29 +59,23 @@ function winCondition() {
 }
 
 function timerFunction() {
-  level_beat = 0
+  level_beat = 0;
   localStorage.clear();
-  localStorage.setItem('level_beat', level_beat);
+  localStorage.setItem("level_beat", level_beat);
 
   window.location.href = "loser.html";
-
-
 }
 
-
-function roundWin(){
+function roundWin() {
   stopCountdownTimer();
   const winButton = document.createElement("button");
   const buttonText = document.createTextNode("Next Level");
 
   winButton.appendChild(buttonText);
   winButton.setAttribute("id", "win_btn");
-    document.getElementById("imageContainer").appendChild(winButton);
-    winButton.addEventListener("click",  nextLevel );
-
-
+  document.getElementById("imageContainer").appendChild(winButton);
+  winButton.addEventListener("click", nextLevel);
 }
-
 
 // Add an event listener to the button
 //dmgCollectButton.addEventListener("click", handleDmgBuffButton);
@@ -100,8 +83,8 @@ function roundWin(){
 
 button1.addEventListener("click", winCondition);
 
-// Set the time 
-let seconds = 10; 
+// Set the time
+let seconds = 10;
 
 // Updates the countdown timer display
 function updateTimer() {
@@ -138,7 +121,6 @@ function startCountdownTimer() {
 function stopCountdownTimer() {
   clearInterval(timerInterval);
 }
-
 
 /*
 

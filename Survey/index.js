@@ -2,21 +2,21 @@ const ratingInput = document.getElementById("rating");
 const ratingValue = document.getElementById("rating-value");
 
 ratingInput.addEventListener("input", () => {
-    ratingValue.textContent = ratingInput.value;
+  ratingValue.textContent = ratingInput.value;
 });
 
 const performanceInput = document.getElementById("performance");
 const performanceValue = document.getElementById("performance-value");
 
 performanceInput.addEventListener("input", () => {
-    performanceValue.textContent = performanceInput.value;
+  performanceValue.textContent = performanceInput.value;
 });
 
 const satisfactionInput = document.getElementById("satisfaction");
 const satisfactionValue = document.getElementById("satisfaction-value");
 
 satisfactionInput.addEventListener("input", () => {
-    satisfactionValue.textContent = satisfactionInput.value;
+  satisfactionValue.textContent = satisfactionInput.value;
 });
 
 function downloadCSV() {
@@ -35,7 +35,7 @@ function downloadCSV() {
     if (genderRadioButtons[i].checked) {
       selectedGenderRadioButton = genderRadioButtons[i];
 
-      break; 
+      break;
     }
   }
 
@@ -51,7 +51,7 @@ function downloadCSV() {
     if (frequencyRadioButtons[i].checked) {
       selectedFrequencyRadioButton = frequencyRadioButtons[i];
 
-      break; 
+      break;
     }
   }
 
@@ -66,22 +66,21 @@ function downloadCSV() {
     satisfaction: document.getElementById("satisfaction").value,
     features: document.getElementById("features").value,
     compare: document.getElementById("compare").value,
-    feedback: document.getElementById("feedback").value
+    feedback: document.getElementById("feedback").value,
   };
-if(document.getElementById("name").value =="" || document.getElementById("email").value =="" ){
-
+  if (
+    document.getElementById("name").value == "" ||
+    document.getElementById("email").value == ""
+  ) {
     alert("Please enter your name and a valid email address");
-      
-  
-    
-}else{
-  const csvContent = Object.values(formData).join(",") + "\n";
+  } else {
+    const csvContent = Object.values(formData).join(",") + "\n";
 
-  // Create Blob and csv download 
-  const blob = new Blob([csvContent], { type: "text/csv" });
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
-  a.download = "form_data.csv";
-  a.click();
-}
+    // Create Blob and csv download
+    const blob = new Blob([csvContent], { type: "text/csv" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "form_data.csv";
+    a.click();
+  }
 }

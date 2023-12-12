@@ -74,7 +74,7 @@ function timerFunction() {
   localStorage.clear();
   localStorage.setItem('level_beat', level_beat);
 
-  window.location.href = "Loser.html";
+  window.location.href = "loser.html";
 
 
 }

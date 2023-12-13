@@ -283,3 +283,147 @@ font-size: 12px;
 
   
 }
+
+@media screen and  (max-height: 800px) {
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #ddd0c8;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#book-title{
+
+  color: #6acfc7;
+  width: 50%;
+  height: 50%;
+  background-color: #ddd0c8;
+  border: 10px double #175185;
+  border-radius: 15%;
+  color: white;
+  text-shadow: 2px 2px 5px #175185;
+  margin-left: 25%;
+  margin-top: 12.5%;
+    max-height: 100%;
+  font-size: 20px;
+  padding-top: 5%;
+}
+
+#page-title{
+
+font-size: 18px;
+
+}
+
+#project1 {
+  align-items: center;
+  justify-content: center;
+  left: 40%;
+  margin-left: 60%;
+  border-radius: 10%;
+  margin-top: 50%;
+}
+
+
+.open-book {
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  height: 75%;
+  background-color: #178582;
+  transform-origin: left center;
+  transition: transform 1.2s ease-in-out;
+  cursor: pointer;
+  z-index: 4;
+  border-left: 15px dotted #ddd0c8;
+  text-align: center;
+  border-radius: 3%;
+  max-height: 100%;
+  max-width: 70%;
+  font-size: 14px;
+  
+
+}
+
+.open-book2 {
+  padding: 1%;
+
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 37vw;
+  height: 75%;
+  background-color: #175185;
+  transform-origin: left center;
+  transition: transform 1.2s ease-in-out;
+  cursor: pointer;
+  z-index: 3;
+  color: white;
+  text-align: center;
+  border-left: 15px dotted #ddd0c8;
+  border-radius: 3%;
+  color: white;
+  max-height: 100%;
+  max-width: 70%;
+  font-size: 14px;
+
+}
+
+.open-book3 {
+  padding: 1%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 38vw;
+  height: 75%;
+  background-color: #178582;
+  transform-origin: left center;
+  transition: transform 1.2s ease-in-out;
+  cursor: pointer;
+  z-index: 2;
+  border-left: 15px dotted #ddd0c8;
+  text-align: center;
+  border-radius: 3%;
+  color: white;
+  max-height: 100%;
+  max-width: 70%;
+  font-size: 14px;
+
+}
+
+.open-book4 {
+  padding: 1%;
+font-size: 80%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 39vw;
+  height: 75%;
+  background-color: #175185;
+  transform-origin: left center;
+  transition: transform 1.2s ease-in-out;
+  cursor: pointer;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  border-left: 15px dotted #ddd0c8;
+  border-radius: 3%;
+  max-height: 100%;
+  max-width: 70%;
+  font-size: 14px;
+
+}
+div > p{
+
+font-size: 10px;
+
+}
+
+
+
+}

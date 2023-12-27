@@ -40,6 +40,7 @@ document.querySelector(".open-book4").addEventListener("click", function () {
   this.style.zIndex = newZIndex;
 });
 
+/*
 document.querySelector(".open-book5").addEventListener("click", function () {
   this.classList.toggle("opened");
   const currentZIndex = parseInt(this.style.zIndex) || 1;
@@ -49,3 +50,4 @@ document.querySelector(".open-book5").addEventListener("click", function () {
 
   this.style.zIndex = newZIndex;
 });
+*/

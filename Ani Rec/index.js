@@ -184,7 +184,7 @@ function recommendation() {
 
 document.addEventListener('DOMContentLoaded', function () {
   // File path relative to the HTML file
-  const filePath = 'http://localhost:3000/test-data-anime.csv';
+  const filePath = 'test-data-anime.csv';
 
   // Use fetch to load the CSV file
   fetch(filePath)

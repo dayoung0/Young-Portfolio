@@ -1,11 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-  padding: 1%;
 }
 body {
   width: 98%;
-  height: 90vh;
+  height: 98vh;
+  padding: 0 1%;
+
   background-color: lightsteelblue;
   background-image: url("cloudy_green.png");
   background-position: center;
@@ -40,31 +41,9 @@ h3 {
   overflow-wrap: normal;
   z-index: 2;
 }
-#left-img {
-  float: left;
-  width: 20%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 225px;
-  max-height: auto;
-  z-index: 1;
-}
 
-#right-img {
-  float: right;
-  width: 20%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  max-width: 225px;
-  max-height: auto;
-  z-index: 1;
-}
-
-.selection_container {
-  width: 100%;
+.selection_container1 {
+  width: 100vw;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -72,9 +51,13 @@ h3 {
 }
 
 .choice {
-  width: 20%;
-  height: auto;
+  width: 250px;
+  height:250px;
   padding-left: 2.5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .choice > img {
@@ -83,8 +66,7 @@ h3 {
 }
 
 .choice:hover {
-  width: 25%;
-  height: auto;
+  width: 35%;
   padding-left: 2.5%;
   font-size: 125%;
 }
@@ -92,4 +74,61 @@ h3 {
 p {
   text-align: center;
   font-weight: bold;
+}
+
+#submit{
+width: 300px;
+height: 300px;
+
+}
+#sword-btn{
+  background-image: url(darius.png);
+}
+
+#sheild-btn{
+  background-image: url(darius.png);
+}
+
+#staff-btn{
+  background-image: url(darius.png);
+}
+
+#bow-btn{
+  background-image: url(darius.png);
+}
+
+
+
+#game-btn{
+  background-image: url(Luffy_jg.png);
+}
+
+#travel-btn{
+  background-image: url(Luffy_jg.png);
+}
+
+#social-btn{
+  background-image: url(Luffy_jg.png);
+}
+
+#growth-btn{
+  background-image: url(Luffy_jg.png);
+}
+
+
+
+
+.rec_container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5% 0;
+}
+
+#top-rec,#bot-rec{
+  width: 40vw;
+  height: 40vh;
+  background-color: red;
+  padding: 20px;
 }

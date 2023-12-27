@@ -192,7 +192,6 @@ document.addEventListener('DOMContentLoaded', function () {
     .then(csvData => {
       // Parse the CSV data using Papa Parse
       Papa.parse(csvData, {
-        header: true, // Set to true if the CSV file has a header row
         complete: function (results) {
           // 'results.data' contains an array of objects representing the CSV data
           console.log(results.data);

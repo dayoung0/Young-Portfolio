@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
     <link rel="stylesheet" href="index.css" />
@@ -15,53 +16,111 @@
 
         <h1 id="title"> Anime Recommendations</h1>
 
-        <h2 id="prompt"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        <h2 id="prompt"> industry.
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </h2>
 
 
     </div>
 
-<div class="container">
-    <div class="selection_container1" id="con1" >
+
+    <br /><br />
+    <input type="file" id="csvInput" />
 
 
-        
-        <button id="sword-btn" class = "choice">  </button>
-        <button id="sheild-btn" class = "choice">  </button>
-        <button id="staff-btn" class = "choice">  </button>
-        <button id="bow-btn" class = "choice">  </button>
-
-    </div>
-
-    <div class="selection_container1" id="con2">
 
 
-        
-        <button id="game-btn" class = "choice"> Select </button>
-        <button id="travel-btn" class = "choice"> Select </button>
-        <button id="social-btn" class = "choice"> Select </button>
-        <button id="growth-btn" class = "choice"> Select </button>
-
-    </div>
-
-    <div class="selection_container1" id="rec_container">
+    <div class="container">
+        <div class="selection_container1" id="con1">
 
 
-        <div id="top-rec">
 
+            <div class="selection_info">
+                Is a strong Offense the best Defense?<br /><br />
+
+            <button id="sword-btn" class="choice"> </button>
+
+            
+        </div>
+        <div class="selection_info">
+            Would you step in front of danger to protect someone <br /><br />
+
+            <button id="shield-btn" class="choice"> </button>
+        </div>
+        <div class="selection_info">
+            Do you like the sound of Magic being the norm<br /><br />
+
+
+            <button id="staff-btn" class="choice"> </button>
+        </div>
+        <div class="selection_info">
+            Being precise makes life easier<br /><br />
+
+            <button id="bow-btn" class="choice"> </button>
+  </div>
+        </div>
+
+        <div class="selection_container1" id="con2">
+
+
+
+            <button id="game-btn" class="choice"> </button>
+
+
+            <button id="travel-btn" class="choice"> </button>
+
+
+            <button id="social-btn" class="choice"> </button>
+            
+            <button id="growth-btn" class="choice"> </button>
 
         </div>
 
-        <div id="bot-rec">
+
+        <div class="selection_container1" id="con3">
+
+
+
+            <button id="competitive-btn" class="choice"> </button>
+            <button id="winner-btn" class="choice"> </button>
+            <button id="nonchalant-btn" class="choice"> </button>
+            <button id="vibes-btn" class="choice"> </button>
+
+        </div>
+
+
+        <div class="selection_container1" id="con4">
+
+
+
+            <button id="isekai-btn" class="choice"> </button>
+            <button id="mecha-btn" class="choice"> </button>
+            <button id="slice-btn" class="choice"> </button>
+            <button id="horror-btn" class="choice"> </button>
+
+        </div>
+
+
+        <div class="selection_container1" id="rec_container">
+
+
+            <div id="top-rec">
+
+
+            </div>
+
+            <div id="bot-rec">
+
+
+            </div>
 
 
         </div>
-       
-
     </div>
-</div>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
     <script src="index.js"></script>
 </body>
+
 </html>

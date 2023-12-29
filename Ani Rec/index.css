@@ -20,7 +20,7 @@ h3 {
   font-size: 20px;
 }
 .top_container {
-    width: 50%;
+  width: 50%;
   position: relative;
   padding: 0 25%;
 }
@@ -52,12 +52,11 @@ h3 {
 
 .choice {
   width: 250px;
-  height:250px;
+  height: 250px;
   padding-left: 2.5%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .choice > img {
@@ -66,7 +65,9 @@ h3 {
 }
 
 .choice:hover {
-  width: 35%;
+  width: 275px;
+  height: 275px;
+
   padding-left: 2.5%;
   font-size: 125%;
 }
@@ -76,47 +77,73 @@ p {
   font-weight: bold;
 }
 
-#submit{
-width: 300px;
-height: 300px;
-
+#submit {
+  width: 300px;
+  height: 300px;
 }
-#sword-btn{
-  background-image: url(darius.png);
-}
-
-#sheild-btn{
-  background-image: url(darius.png);
+#sword-btn {
+  background-image: url(sword.png);
 }
 
-#staff-btn{
-  background-image: url(darius.png);
+#shield-btn {
+  background-image: url(shield.png);
 }
 
-#bow-btn{
-  background-image: url(darius.png);
+#staff-btn {
+  background-image: url(staff.png);
 }
 
+#bow-btn {
+  background-image: url(bow.png);
+}
 
-
-#game-btn{
+#game-btn {
   background-image: url(Luffy_jg.png);
 }
 
-#travel-btn{
+#travel-btn {
   background-image: url(Luffy_jg.png);
 }
 
-#social-btn{
+#social-btn {
   background-image: url(Luffy_jg.png);
 }
 
-#growth-btn{
+#growth-btn {
   background-image: url(Luffy_jg.png);
 }
 
+#competitive-btn {
+  background-image: url(darius.png);
+}
 
+#winner-btn {
+  background-image: url(darius.png);
+}
 
+#nonchalant-btn {
+  background-image: url(darius.png);
+}
+
+#vibes-btn {
+  background-image: url(darius.png);
+}
+
+#isekai-btn {
+  background-image: url(Luffy_jg.png);
+}
+
+#mecha-btn {
+  background-image: url(Luffy_jg.png);
+}
+
+#slice-btn {
+  background-image: url(Luffy_jg.png);
+}
+
+#horror-btn {
+  background-image: url(Luffy_jg.png);
+}
 
 .rec_container {
   width: 100vw;
@@ -126,9 +153,17 @@ height: 300px;
   padding: 5% 0;
 }
 
-#top-rec,#bot-rec{
+#top-rec,
+#bot-rec {
   width: 40vw;
   height: 40vh;
-  background-color: red;
+  background-color: beige;
   padding: 20px;
+  background-color: beige;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.selection_info{
 }
